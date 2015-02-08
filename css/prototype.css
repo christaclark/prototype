@@ -1,7 +1,8 @@
 #home {
 	background-image:url('../images/rentercouple.png');
-	min-height: 700px;
-	min-width: 1000px;
+	min-height: 800px;
+	min-width: 1000px; 
+  background-attachment:fixed; 
 }
 
 
