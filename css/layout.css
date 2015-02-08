@@ -1,6 +1,6 @@
 /* 
-Document   : layout
-Author     : Little Neko
+Document   : layout 
+Author     : Christa Clark & Little Neko
 Description: layout styles
 
 */
@@ -9,7 +9,7 @@ Description: layout styles
 ==================================================
 
 #BOOSTRAP CUSTOMIZATION
-#NEKO CSS FRAMEWORK
+#CSS FRAMEWORK
 #TYPOGRAPHY
 #GENERAL
 #PARALLAX STUFF
@@ -27,7 +27,7 @@ Description: layout styles
 */
 
 
-/* BOOSTRAP CUSTOMIZATION
+/* BOOSTRAP CUSTOMIZATION 
 ================================================== */
 .navbar {margin-bottom:0;}
 .navbar-default {background:none; border:none;}
@@ -85,7 +85,7 @@ display:block;
 
 
 
-/* NEKO CSS FRAMEWORK
+/* CSS FRAMEWORK
 ================================================== */
 
 .iconRounded{
@@ -621,8 +621,8 @@ img.video  {
     font-size: 1em;
     font-weight: 300;
     margin: 0;
-	padding-top:11px;
-	padding-bottom:11px;
+	padding-top:2px;
+	padding-bottom:2px;
 	vertical-align:middle;
     text-decoration: none;
     text-transform: uppercase;
