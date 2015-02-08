@@ -1,10 +1,8 @@
 
 
 body {
-    background:url('../images/background.png');
-    min-height: 800px;
+    background:url('../images/review.png');
  	padding-top: 70px;
-	min-width: 1800px;
 	overflow:auto;
 	background-position: center -300px;
   background-repeat: no-repeat;
