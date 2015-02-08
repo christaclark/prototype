@@ -3,6 +3,7 @@
 body {
     background:url('../images/review.png');
  	padding-top: 70px;
+ 	min-height: 1200px;
 	overflow:auto;
 	background-position: center -300px;
   background-repeat: no-repeat;
