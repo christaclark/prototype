@@ -1,6 +1,6 @@
 /* 
-Document   : layout 
-Author     : Christa Clark & Little Neko
+Document   : layout
+Author     : Little Neko
 Description: layout styles
 
 */
@@ -9,7 +9,7 @@ Description: layout styles
 ==================================================
 
 #BOOSTRAP CUSTOMIZATION
-#CSS FRAMEWORK
+#NEKO CSS FRAMEWORK
 #TYPOGRAPHY
 #GENERAL
 #PARALLAX STUFF
@@ -27,11 +27,14 @@ Description: layout styles
 */
 
 
-/* BOOSTRAP CUSTOMIZATION 
+/* BOOSTRAP CUSTOMIZATION
 ================================================== */
 .navbar {margin-bottom:0;}
 .navbar-default {background:none; border:none;}
-.nav.nav-tabs {margin-bottom:22px;}
+.navbar .nav.pull-right {
+     float: right;
+    margin-right: 98px; /*set margin this way in your custom styesheet*/
+  }
 .btn:active, .btn.active{
 -webkit-box-shadow:none;box-shadow:none
 }
@@ -85,7 +88,7 @@ display:block;
 
 
 
-/* CSS FRAMEWORK
+/* NEKO CSS FRAMEWORK
 ================================================== */
 
 .iconRounded{
@@ -197,7 +200,7 @@ h1, h2, h3, h4, h5, h6, legend {
 	font-family: 'Open Sans', sans-serif;
 }
 h1 {
-	font-size: 44px;
+	font-size: 35px;
 	line-height: 44px;
 	font-weight: 300;
 	font-style: normal;
@@ -206,6 +209,10 @@ h1 {
 	position:relative;
 	letter-spacing: 0.1em;
 	margin-bottom: 17px;
+}
+h1 .header {
+	font-size:20px;
+	margin-bottom: 0px;
 }
 
 h1.noSubtitle{
@@ -448,7 +455,6 @@ hr {
 /*** buttons ***/
 .btn {
 	text-transform:uppercase;
-	padding:15px 20px;
 	font-size:18px;
 	 -webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
@@ -477,6 +483,12 @@ hr {
 }
 .btn i {
 	margin-right:0.5em;
+}
+
+.btn-login {
+	float: right;
+	margin-top: 20px;
+	margin-left:5px;
 }
 
 /*** call to actioon ***/
@@ -571,7 +583,10 @@ hr {
 
 /* HEADER
 ================================================== */
-#mainHeader{background:#eee;}
+#mainHeader{
+	 background-color: transparent;
+   background: transparent;
+}
 .navbar-brand{padding-top:30px;padding-left: 0;}
 
 
@@ -615,14 +630,14 @@ img.video  {
 ================================================== */
 
 /* MAIN MENU
-================================================== */
+================================================== 
 .navbar-nav > li > a {
     display: block;
     font-size: 1em;
     font-weight: 300;
     margin: 0;
-	padding-top:2px;
-	padding-bottom:2px;
+	padding-top:11px;
+	padding-bottom:11px;
 	vertical-align:middle;
     text-decoration: none;
     text-transform: uppercase;
@@ -634,9 +649,9 @@ img.video  {
 }
 .navbar-nav > li > a i {font-size: 16px; text-align: center;padding: 20px 0 10px 0; color:#ccc;}
 .navbar-nav > li > a:hover i, .navbar-nav > li.active > a i {color:#fff;}
-#mainHeader .pull-right{ float:none !important; }
+#mainHeader .pull-right{ float:none !important; } */
 
-/*** MEDIA QUERIES ***/
+/*** MEDIA QUERIES 
 
 @media(max-width:767px){
 	.navbar-nav > li > a i {
