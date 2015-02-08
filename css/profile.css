@@ -1,9 +1,16 @@
 
 
 body {
-  padding-top: 70px;
+    background:url('../images/background.png');
+    min-height: 800px;
+ 	padding-top: 70px;
 	min-width: 1800px;
-	float: left;
+	overflow:auto;
+	background-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: cover;-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*** buttons ***/
