@@ -1,5 +1,17 @@
 
 
+header {
+    background-image: url("/images/background.png");
+    min-height: 1200px;
+    width: 100%;
+    overflow:auto;
+    background-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: cover;-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Nav bar - signup and login buttons styling */
 
 

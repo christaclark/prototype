@@ -1,9 +1,9 @@
 
 
 body {
-    background:url('../images/review.png');
  	padding-top: 70px;
  	min-height: 1200px;
+ 	width: 100%;
 	overflow:auto;
 	background-position: center -300px;
   background-repeat: no-repeat;
@@ -12,6 +12,9 @@ body {
   background-size: cover;
 }
 
+#review {
+	width: 100%;
+}
 /*** buttons ***/
 .btn {
 	background:#3E6D92;
